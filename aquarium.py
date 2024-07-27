@@ -49,7 +49,7 @@ fish_types = [
 
 fishes = []
 num_fishes = random.randint(4, 8)
-for _ in range(num_fishes):
+for i in range(num_fishes):
     species, color = random.choice(fish_types)
     fishes.append(Fish(random.randint(0, WIDTH), random.randint(0, HEIGHT), species, color))
 
