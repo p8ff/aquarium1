@@ -3,14 +3,12 @@ import random
 
 pygame.init()
 
-# Розміри вікна
 WINDOW_WIDTH = 800
 WINDOW_HEIGHT = 600
 
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("aquarium")
 
-# Кольори
 AQUA = (0, 0, 255)
 LIME = (0, 255, 0)
 CRIMSON = (255, 0, 0)
